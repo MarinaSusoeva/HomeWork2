@@ -29,7 +29,7 @@ public class NewDay {
         } else if (d > 31 || m > 12 || y < 0)  {
             System.out.println("Дата введена некорректно");
         } else if (d > 0 && d < 30 && (m > 0 && m < 13) && y > 0){
-            System.out.println("Завтра " + nd + "." + m + "." + y);
+            System.out.println("Следующий день " + nd + "." + m + "." + y);
         }
     }
 }
