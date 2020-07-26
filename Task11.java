@@ -1,13 +1,13 @@
 package com.dmdev.lesson7.homeWork3;
 
 import java.util.Arrays;
-
-public class Task11 {
-    /**
+     /**
      * Заданы 2 массива целых чисел произвольной длины. 
-     *     Написать программу, создающую третий массив,
+     * Написать программу, создающую третий массив,
      * представляющий собой слияние 2-х заданных.
      */
+public class Task11 {
+    
     public static void main(String[] args) {
         int[] values1 = {1, 3, 5, 7, 9};
         int[] values2 = {2, 4, 6, 8, 10};
